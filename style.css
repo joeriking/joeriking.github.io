@@ -1,0 +1,29 @@
+﻿html *{
+   font-family: Arial;
+   text-align: center;
+}
+
+h1{
+   font-size: 36px;
+}
+
+h2{
+   font-size: 20px;
+   font-weight: normal;
+}
+
+span{
+   color: #666;
+}
+
+img:hover{
+   border-radius:50%
+}
+
+body{
+   background-color: #cccccc;
+}
+
+footer{
+   color: #666;
+}
