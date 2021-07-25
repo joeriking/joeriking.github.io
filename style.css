@@ -3,6 +3,20 @@
    text-align: center;
 }
 
+.first{
+  background-image: url("images/home-screen.jpeg");
+}
+
+.second{
+  background-image: url("images/coding.jpeg");
+  background-size: 100%;
+}
+
+.third{
+  background-image: url("images/electronics-board.jpeg");
+  background-size: 100%;
+}
+
 h1{
    font-size: 36px;
 }
@@ -12,16 +26,22 @@ h2{
    font-weight: normal;
 }
 
-span{
-   color: #666;
+span.a{
+   color: #fbb829;
 }
 
-img:hover{
-   border-radius:50%
+span.b{
+   display: inline;
+   padding: 15px;
+   background-color: #fbb829;
+}
+
+img{
+   opacity: 0.75;
 }
 
 body{
-   background-color: #cccccc;
+   color: white;
 }
 
 footer{
