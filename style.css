@@ -3,6 +3,15 @@
    text-align: center;
 }
 
+.box{
+   width: fit-content;
+   margin: auto;
+   border: 2px;
+   border-style: solid;
+   padding: 15px;
+   font-size: 16px;
+}
+
 .first{
   background-image: url("images/home-screen.jpeg");
 }
@@ -18,12 +27,7 @@
 }
 
 h1{
-   font-size: 36px;
-}
-
-h2{
-   font-size: 20px;
-   font-weight: normal;
+   font-size: 42px;
 }
 
 span.a{
@@ -40,7 +44,13 @@ img{
    opacity: 0.75;
 }
 
+img:hover{
+   box-shadow: 0 0 0 0px #000, 0 0 0 2px white;
+   border-radius: 50px;
+}
+
 body{
+   margin: 0px;
    color: white;
 }
 
