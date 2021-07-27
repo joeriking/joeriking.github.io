@@ -1,6 +1,29 @@
 ﻿html *{
-   font-family: Arial;
+   font-family: sans-serif;
    text-align: center;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
 }
 
 .box{
@@ -12,18 +35,37 @@
    font-size: 16px;
 }
 
-.first{
+.home{
   background-image: url("images/home-screen.jpeg");
+  height: 100vh;
 }
 
-.second{
+#home{
+  margin: 0px;
+}
+
+#about{
+   background-color: #999;
+   margin: 0px;
+   height: 100vh;
+}
+
+#skills{
   background-image: url("images/coding.jpeg");
-  background-size: 100%;
+  margin: 0px;
+  height: 100vh;
 }
 
-.third{
+#portfolio{
+  background-color: #999;
+  margin: 0px;
+  height: 100vh;
+}
+
+#contact{
   background-image: url("images/electronics-board.jpeg");
-  background-size: 100%;
+  margin: 0px;
+  height: 100vh;
 }
 
 h1{
