@@ -12,6 +12,24 @@ a:hover{
    color: black;
 }
 
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background:url("images/home-screen.jpeg")no-repeat;
+    background-position: center;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.innie {
+    text-align: center;
+}
+
 .box{
    width: max-content;
    margin: auto;
@@ -21,40 +39,11 @@ a:hover{
    font-size: 16px;
 }
 
-.home{
-  background-image: url("images/home-screen.jpeg");
-  height: 100vh;
-}
-
 #home{
   margin: 0px;
 }
 
-#about{
-   background-color: #999;
-   margin: 0px;
-   height: 100vh;
-}
-
-#skills{
-  background-image: url("images/coding.jpeg");
-  margin: 0px;
-  height: 100vh;
-}
-
-#portfolio{
-  background-color: #999;
-  margin: 0px;
-  height: 100vh;
-}
-
-#contact{
-  background-image: url("images/electronics-board.jpeg");
-  margin: 0px;
-  height: 100vh;
-}
-
-h1{
+.name{
    font-size: 42px;
 }
 
@@ -86,8 +75,8 @@ footer{
    color: #666;
 }
 
-
 .topnav {
+  z-index: 9999;
   overflow: hidden;
   position: fixed;
   width: 100%;
