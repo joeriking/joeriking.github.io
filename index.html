@@ -2,50 +2,34 @@
 
 <!DOCTYPE html>
 <html>
-  <head>
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-     <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
+ <head>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 
-  <body>
+<body>
+
+  <div class="nav">
+    <a href="#home" class="active"><i class="fa fa-fw fa-home"></i> Home</a>
+    <a href="#about"><i class="fa fa-fw fa-address-book"></i> About</a>
+    <a href="#skills"><i class="fa fa-fw fa-pie-chart"></i> Skills</a>
+    <a href="#portfolio"><i class="fa fa-fw fa-briefcase"></i> Portfolio</a>
+    <a href="#contact"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+  </div>
     
-    <div class="topnav" id="myTopnav">
-      <a href="" class="active">&lt; / &gt;</a>
-      <a href="#home" onclick="myFunction()"><i class="fa fa-fw fa-home"></i> Home</a>
-      <a href="#about" onclick="myFunction()"><i class="fa fa-fw fa-address-book"></i> About</a>
-      <a href="#skills" onclick="myFunction()"><i class="fa fa-fw fa-pie-chart"></i> Skills</a>
-      <a href="#portfolio" onclick="myFunction()"><i class="fa fa-fw fa-briefcase"></i> Portfolio</a>
-      <a href="#contact" onclick="myFunction()"><i class="fa fa-fw fa-envelope"></i> Contact</a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+  <div class="outer">
+    <div class="middle"><div class="name">I'M <span class="a">JOERI</span>,</div><br>
+      <div class="box">PROGRAMMER | COMPUTER ENTHUSIAST | DATA SCIENTIST</div><br>
+      <a href="https://www.linkedin.com/in/joeriking"><img src="images/linkedin.png" alt="LinkedIn"></a>
+      <a href="https://www.facebook.com/joeri.king"><img src="images/facebook.png" alt="Facebook"></a>
+      <a href="https://www.instagram.com/joeri297/"><img src="images/instagram.png" alt="Instagram"></a>
+      <a href="https://github.com/joeriking"><img src="images/github.png" alt="Github"></a><br><br><br>
+      <a href=""><span class="b">DOWNLOAD CV</span></a>
     </div>
+  </div>
 
-    <div class="outer" id="home">
-      <div class="middle"><div class="name">I'M <span class="a">JOERI</span>,</div><br>
-        <div class="box">PROGRAMMER | COMPUTER ENTHUSIAST | DATA SCIENTIST</div><br>
-        <a href="https://www.linkedin.com/in/joeriking"><img src="images/linkedin.png" alt="LinkedIn"></a>
-        <a href="https://www.facebook.com/joeri.king"><img src="images/facebook.png" alt="Facebook"></a>
-        <a href="https://www.instagram.com/joeri297/"><img src="images/instagram.png" alt="Instagram"></a>
-        <a href="https://github.com/joeriking"><img src="images/github.png" alt="Github"></a><br><br><br>
-        <a href=""><span class="b">DOWNLOAD CV</span></a>
-      </div>
-    </div>
+  <div class="footer"><i>Copyright &copy; 2021 Joeri King. All rights reserved.</i></div>
 
-  </body>
-
-  <footer>
-    <p>Copyright &copy; 2021 Joeri King.</p>
-    <p>All rights reserved.</p>
-  </footer>
-
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
+</body>
 
 </html>
