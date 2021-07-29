@@ -69,9 +69,10 @@ body{
 }
 
 .nav {
-    z-index: 9999;
+    display: table-cell;
+    vertical-align: top;
     overflow: hidden;
-    position: relative;
+    position: fixed;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.75);
     list-style:none;
