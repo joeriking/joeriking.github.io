@@ -71,7 +71,7 @@ body{
 .nav {
     z-index: 9999;
     overflow: hidden;
-    position: absolute;
+    position: relative;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.75);
     list-style:none;
