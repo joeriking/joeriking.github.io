@@ -16,6 +16,7 @@ a{
     width: 100%;
     background:url("images/home-screen.jpeg")no-repeat;
     background-position: top;
+    vertical-align: top;
 }
 
 .middle {
@@ -72,7 +73,7 @@ body{
     display: table-cell;
     vertical-align: top;
     overflow: hidden;
-    position: fixed;
+    position: absolute;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.75);
     list-style:none;
