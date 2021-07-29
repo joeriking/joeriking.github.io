@@ -15,8 +15,7 @@ a{
     height: 100%;
     width: 100%;
     background:url("images/home-screen.jpeg")no-repeat;
-    background-position: top;
-    vertical-align: top;
+    background-position: center;
 }
 
 .middle {
@@ -71,7 +70,7 @@ body{
 
 .nav {
     display: table-cell;
-    vertical-align: top;
+    top: 0;
     overflow: hidden;
     position: absolute;
     width: 100%;
