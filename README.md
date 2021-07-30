@@ -1,4 +1,4 @@
 # joeriking.github.io
 My personal website
 
-URL: joeriking.github.io
+URL: www.joeriking.github.io
