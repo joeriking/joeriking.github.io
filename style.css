@@ -788,6 +788,7 @@ button:focus {
 	float: left;
 	position: relative;
 	width: 100%;
+	heigth: 100vh;
 }
 
 #mu-testimonials::before {
