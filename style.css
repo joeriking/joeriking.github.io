@@ -345,6 +345,7 @@ button:focus {
 	display: inline;
 	float: left;
         width: 100%;
+	heigth: 100vh;
 }
 
 
@@ -788,7 +789,6 @@ button:focus {
 	float: left;
 	position: relative;
 	width: 100%;
-	heigth: 100vh;
 }
 
 #mu-testimonials::before {
